@@ -14,6 +14,9 @@ output/eitc_no_duplicates_final_v1.txt
 output/eitc_no_duplicates_final_v2.txt
 output/eitc_no_duplicates_final_2022.txt
 
+# Other files
+*.twbr
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
