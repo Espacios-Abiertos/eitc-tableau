@@ -1,0 +1,63 @@
+## TODO: Check if this is ok
+My Tableau Repository/*
+
+# Huge datasets (above 100MB) (find input -type f -size +100M)
+input/20220802_prtaxtada2020.txt
+input/eitc_no_duplicates_final.csv
+input/20220802_prtaxtada2019.txt
+input/20220624_prtaxtada.txt
+input/20220808_prtaxtada2021.txt
+input/20220722_prtaxtada2019.txt
+input/20210906_prtaxdata2019.txt
+input/20220722_prtaxtada2020.txt
+output/eitc_no_duplicates_final_v1.txt
+output/eitc_no_duplicates_final_v2.txt
+output/eitc_no_duplicates_final_2022.txt
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

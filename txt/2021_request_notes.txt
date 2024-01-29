@@ -1,0 +1,37 @@
+2021 data request
+
+ things to be done
+ fix ages
+ fix munis (~5% not in list of PR munis)
+ calc CTC for 2019 taxpayers, and poverty (ie CTC alone and EITC + CTC)
+ CTC possible values 3600, 3000, 2000, 0 
+
+ things we should 'fix' when doing analysis w 2022 data request
+ see EA's EITC report, pg.16 graph 2
+ based on my attempts at replication (TBD recheck Daniel's R output eitc_no_duplicates_final_v1)
+ base_expandida  and = when should be = and 
+ base_expandida == 1 & 2019_benef == 1 happens; should not (TBD check if this is with rev, official, or calculated)
+ 26_yo checks for = 19 yo, cuentapropista checks too...
+ but base_expandida does not (nor does rev_beneficiario, including in v2)
+
+
+ HH IDs
+
+ By how Hacienda provided data, there are no IDs and consecutive rows with identical info in certain columns are the same HH.
+
+ creation caveat using a hypothetical 
+ Take IDs 1 through 10. Assume ID #1 and #10 are 'identical' in all relevant columns for HH matching, and they have dependents. 
+ In the R output (eitc_no_duplicates_final_v1), it seems that rows with identical values got grouped into the same HH ID.
+ Therefore v1 is smaller than v2 (by around 300k obs) and HH in v1 tend to have more dependents. This disproportionally impacts HH with '0' on income due to their higher prob. of being a duplicate
+ v2 method splits the Hacienda file by w and wo dependents prior to creating HH IDs, then uses the same columns as v1 to match rows...
+ While the v2 method requires rows to be consecutive in order to be grouped under the same HH ID, there is still a possibility for individuals to get grouped to wrong HH.
+ Suppose, in the raw Hacienda df, rows #1-4 are the same HH and #10-13 are their own HH. For simplicity, assume rows #5-9 all lack dependents.
+ the v2 method then implies we split the df; the df_dep splice has #1-4;#10-13 and df_no_dep in turn has #5-9
+ therefore, if the columns used for HH ID generation have the same values for #1 and #10, then they would get grouped into the same HH id.
+ this may be fixed by preserving the original df index, and instead of checking the 'previous' row for value matches, checking the row with index = (current_row_index) - 1
+ of course this would need an if statement for the cases where said row does not exist (as it would happen in our hypothetical once we get to #10)
+
+FIX no mirar la fila anterior, sino literalmente el ID column; pero sería bastante complicado....tendrías que programar para que si la info de x+1 es igual a x, pues le asignas el unit id asignado a x; luego sigues con x+2, y sucesivo, y rompes cuando no sean iguales, creando un nuevo ID, y prosiguiendo. Así, no habría que hacer el split de los df, asignar ID, y luego merge. No se me ocurre como hacerlo sin loop...stackoverflow
+
+
+además de esto, debo check why the index thing was leading to -1 unit in my method of HH match

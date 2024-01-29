@@ -1,0 +1,52 @@
+>>2022-08-01
+>>add analysis sections
+>>email team for meeting this week
+>>hacienda x2 emails, one with dictionary and one follow up simple
+
+
+>>analysis of same ID over time, calc new workers, etc.
+>>new IDs 2019 to 2020 (and those that drop from 2019 to 2020)
+>>expansion_type need to add old geezers (NOT DONE IN 2021 REQUEST)
+
+
+>>all marital_status EXCEPT Married/Individual are not elligble for EITC(!!!) actually, re-check Not Living with Spouse AND Prenuptial, as Hacienda reports them having EITC (31% and 15%)
+>>ver unidades con <$40K y single; if total income > EITC income by $10k, then should have no EITC
+>ver % unidades Married que tienen income_SO (ie llenan anejo)
+>ver unidades con EITC_calc pero sin EITC de Hacienda
+
+
+>>comparisons
+
+2019
+
+SOURCE								v1 		|	   v2      | 2022 request 
+monto_EITC_2019_oficial        $116,572,605 | $119,662,416 | $117,437,046
+rev_monto_EITC_2019_oficial    $114,736,883 | $117,821,902 | $115,530,720
+monto_EITC_2019_no_oficial     $153,770,263 | $142,111,006 | $150,018,315
+monto_EITC_2022                $853,533,948 | $954,109,820 | $1,006,450,420
+
+
+											  v1 	|	 v2     | 2022 request 
+beneficiario_EITC_2019_oficial       	 	862,527 | 1,136,908 | CHECK THIS MORNING
+rev_beneficiario_EITC_2019_oficial       	254,757 | 258,421   | 257,152
+beneficiario_EITC_2019_no_oficial   		324,822 | 320,824   | 357,063
+beneficiario_EITC_2022   					466,341 | 538,118   | 617,861
+
+
+
+2020 (2022 request only)
+
+monto_EITC_2019_oficial         $109,297,321
+rev_monto_EITC_2019_oficial     $109,297,321
+monto_EITC_2019_no_oficial    	$147,255,353
+monto_EITC_2022    				$961,776,680
+
+
+rev_beneficiario_EITC_2019_oficial      259,852
+beneficiario_EITC_2019_no_oficial    	377,872
+beneficiario_EITC_2022				    641,605
+
+
+III. ref data and other
+
+contact kidscounts for census age ranges 0-5 (where do they get that from at a muni level for 1 year?)

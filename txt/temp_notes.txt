@@ -1,0 +1,21 @@
+johanna (suri), jonathan, klark, marcos, sara
+
+ingresos con formularios se pueden validar, pero hay veces que no hay form
+
+Occupation code is not NAICS; granurality level unknown though; 
+ver anejo M; una persona puede tener muchos NAICS; p. 22 instrucciones
+
+ver instrucciones planilla para glossary
+
+validan edades para algunos créditos, pero generalmente demographic info es data entry puro
+**ver si sus dob tienen EITC
+
+pension_amount; es para cónyugue, no niños.
+
+TBD dupes sin cambios en estado personal
+
+TBD work credit income; linea suma de retenciones y créditos
+
+
+
+First cells in prelim python: check discrepancies between income versions
