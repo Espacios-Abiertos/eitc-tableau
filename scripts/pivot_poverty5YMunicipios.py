@@ -58,4 +58,4 @@ print(df_pivoted_casted)
 
 # Save to excel and csv
 df_pivoted_casted.write_csv('input/Poverty5Y2022Municipios_pivoted.csv')
-df_pivoted_casted.write_excel('input/Poverty5Y2022Municipios_pivoted.xlsx')
+df_pivoted_casted.write_excel('input/Poverty5Y2022Municipios_pivoted.xlsx', worksheet='Poverty5Y2022Municipios_pivoted')
