@@ -1,0 +1,2743 @@
+{
+    "_id": "63cd52b1bd0e34001e063608",
+    "settings": {
+        "sites": [
+            "juventudpr.org"
+        ],
+        "showName": true,
+        "decimalSeparator": ".",
+        "thousandsSeparator": ",",
+        "name": "Child Tax Credit IDJ 2023"
+    },
+    "shopify": {
+        "products": []
+    },
+    "embeddedLinkData": {
+        "link": "",
+        "title": ""
+    },
+    "active": true,
+    "advanced": "",
+    "elements": [
+        {
+            "ref": "#1",
+            "elementType": "select",
+            "descriptor": "Select Field",
+            "settings": {
+                "options": [
+                    {
+                        "label": "Casado/a, rindiendo en conjunto",
+                        "value": 1,
+                        "ref": "o2",
+                        "elementType": "option"
+                    },
+                    {
+                        "label": "Individuo, jefe/a de familia, casado/a rindiendo por separado, viudo/a",
+                        "value": 2,
+                        "ref": "o5",
+                        "elementType": "option"
+                    }
+                ],
+                "defaultValue": 0
+            },
+            "advancedSettings": {
+                "visibility": {
+                    "active": false,
+                    "defaultValue": 0,
+                    "compiledRule": "",
+                    "ruleset": []
+                }
+            },
+            "label": "Estado Civil",
+            "hint": "",
+            "showLabel": true,
+            "showElement": true,
+            "style": {
+                "elementBackgroundColor": {
+                    "active": false,
+                    "value": "#ffffff"
+                },
+                "paddingTop": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingBottom": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingLeft": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingRight": {
+                    "active": false,
+                    "value": 20
+                },
+                "backgroundColor": {
+                    "active": false,
+                    "value": "#ebebeb"
+                },
+                "backgroundColor2": {
+                    "active": false,
+                    "value": "#000000"
+                },
+                "label": {
+                    "active": false,
+                    "value": {
+                        "weight": "bold",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 13,
+                        "color": "#000000"
+                    }
+                },
+                "fieldText": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 12,
+                        "color": "#000000"
+                    }
+                },
+                "borderSize": {
+                    "active": false,
+                    "value": 2
+                },
+                "borderRadius": {
+                    "active": false,
+                    "value": 0
+                },
+                "borderColor": {
+                    "active": false,
+                    "value": "#ebebeb"
+                }
+            },
+            "extendedStyle": {
+                "sm": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "backgroundColor": {
+                        "active": false,
+                        "value": "#ebebeb"
+                    },
+                    "backgroundColor2": {
+                        "active": false,
+                        "value": "#000000"
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "fieldText": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 12,
+                            "color": "#000000"
+                        }
+                    },
+                    "borderSize": {
+                        "active": false,
+                        "value": 2
+                    },
+                    "borderRadius": {
+                        "active": false,
+                        "value": 0
+                    },
+                    "borderColor": {
+                        "active": false,
+                        "value": "#ebebeb"
+                    }
+                },
+                "md": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "backgroundColor": {
+                        "active": false,
+                        "value": "#ebebeb"
+                    },
+                    "backgroundColor2": {
+                        "active": false,
+                        "value": "#000000"
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "fieldText": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 12,
+                            "color": "#000000"
+                        }
+                    },
+                    "borderSize": {
+                        "active": false,
+                        "value": 2
+                    },
+                    "borderRadius": {
+                        "active": false,
+                        "value": 0
+                    },
+                    "borderColor": {
+                        "active": false,
+                        "value": "#ebebeb"
+                    }
+                }
+            }
+        },
+        {
+            "ref": "#2",
+            "elementType": "input",
+            "descriptor": "Numeric input",
+            "settings": {
+                "min": 0,
+                "max": 600000,
+                "defaultValue": 0,
+                "decimalPlaces": 0,
+                "step": 1000,
+                "useMouseControls": true,
+                "prefix": "$",
+                "postfix": ""
+            },
+            "advancedSettings": {
+                "visibility": {
+                    "active": true,
+                    "defaultValue": 0,
+                    "compiledRule": "",
+                    "ruleset": []
+                }
+            },
+            "label": "Salario Bruto (2023)",
+            "hint": "Solo usar multiplos de 1.000",
+            "showLabel": true,
+            "showElement": true,
+            "style": {
+                "elementBackgroundColor": {
+                    "active": false,
+                    "value": "#ffffff"
+                },
+                "label": {
+                    "active": false,
+                    "value": {
+                        "weight": "bold",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 13,
+                        "color": "#000000"
+                    }
+                },
+                "paddingLeft": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingRight": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingTop": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingBottom": {
+                    "active": false,
+                    "value": 20
+                },
+                "backgroundColor": {
+                    "active": false,
+                    "value": "#ebebeb"
+                },
+                "backgroundColor2": {
+                    "active": false,
+                    "value": "#000000"
+                },
+                "text": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 12,
+                        "color": "#000000"
+                    }
+                },
+                "fieldText": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 12,
+                        "color": "#000000"
+                    }
+                },
+                "borderSize": {
+                    "active": false,
+                    "value": 2
+                },
+                "borderRadius": {
+                    "active": false,
+                    "value": 0
+                },
+                "borderColor": {
+                    "active": false,
+                    "value": "#ebebeb"
+                }
+            },
+            "extendedStyle": {
+                "sm": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "backgroundColor": {
+                        "active": false,
+                        "value": "#ebebeb"
+                    },
+                    "backgroundColor2": {
+                        "active": false,
+                        "value": "#000000"
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 12,
+                            "color": "#000000"
+                        }
+                    },
+                    "fieldText": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 12,
+                            "color": "#000000"
+                        }
+                    },
+                    "borderSize": {
+                        "active": false,
+                        "value": 2
+                    },
+                    "borderRadius": {
+                        "active": false,
+                        "value": 0
+                    },
+                    "borderColor": {
+                        "active": false,
+                        "value": "#ebebeb"
+                    }
+                },
+                "md": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "backgroundColor": {
+                        "active": false,
+                        "value": "#ebebeb"
+                    },
+                    "backgroundColor2": {
+                        "active": false,
+                        "value": "#000000"
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 12,
+                            "color": "#000000"
+                        }
+                    },
+                    "fieldText": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 12,
+                            "color": "#000000"
+                        }
+                    },
+                    "borderSize": {
+                        "active": false,
+                        "value": 2
+                    },
+                    "borderRadius": {
+                        "active": false,
+                        "value": 0
+                    },
+                    "borderColor": {
+                        "active": false,
+                        "value": "#ebebeb"
+                    }
+                }
+            }
+        },
+        {
+            "ref": "#3",
+            "elementType": "input",
+            "descriptor": "Numeric input",
+            "settings": {
+                "min": 0,
+                "max": 20,
+                "defaultValue": 0,
+                "decimalPlaces": 0,
+                "step": 1,
+                "useMouseControls": true,
+                "prefix": "",
+                "postfix": ""
+            },
+            "advancedSettings": {
+                "visibility": {
+                    "active": false,
+                    "defaultValue": 0,
+                    "compiledRule": "",
+                    "ruleset": []
+                }
+            },
+            "label": "Menores dependientes",
+            "hint": "",
+            "showLabel": true,
+            "showElement": true,
+            "style": {
+                "elementBackgroundColor": {
+                    "active": false,
+                    "value": "#ffffff"
+                },
+                "paddingTop": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingBottom": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingLeft": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingRight": {
+                    "active": false,
+                    "value": 20
+                },
+                "backgroundColor": {
+                    "active": false,
+                    "value": "#ebebeb"
+                },
+                "backgroundColor2": {
+                    "active": false,
+                    "value": "#000000"
+                },
+                "label": {
+                    "active": false,
+                    "value": {
+                        "weight": "bold",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 13,
+                        "color": "#000000"
+                    }
+                },
+                "text": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 12,
+                        "color": "#000000"
+                    }
+                },
+                "fieldText": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 12,
+                        "color": "#000000"
+                    }
+                },
+                "borderSize": {
+                    "active": false,
+                    "value": 2
+                },
+                "borderRadius": {
+                    "active": false,
+                    "value": 0
+                },
+                "borderColor": {
+                    "active": false,
+                    "value": "#ebebeb"
+                }
+            },
+            "extendedStyle": {
+                "sm": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "backgroundColor": {
+                        "active": false,
+                        "value": "#ebebeb"
+                    },
+                    "backgroundColor2": {
+                        "active": false,
+                        "value": "#000000"
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 12,
+                            "color": "#000000"
+                        }
+                    },
+                    "fieldText": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 12,
+                            "color": "#000000"
+                        }
+                    },
+                    "borderSize": {
+                        "active": false,
+                        "value": 2
+                    },
+                    "borderRadius": {
+                        "active": false,
+                        "value": 0
+                    },
+                    "borderColor": {
+                        "active": false,
+                        "value": "#ebebeb"
+                    }
+                },
+                "md": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "backgroundColor": {
+                        "active": false,
+                        "value": "#ebebeb"
+                    },
+                    "backgroundColor2": {
+                        "active": false,
+                        "value": "#000000"
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 12,
+                            "color": "#000000"
+                        }
+                    },
+                    "fieldText": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 12,
+                            "color": "#000000"
+                        }
+                    },
+                    "borderSize": {
+                        "active": false,
+                        "value": 2
+                    },
+                    "borderRadius": {
+                        "active": false,
+                        "value": 0
+                    },
+                    "borderColor": {
+                        "active": false,
+                        "value": "#ebebeb"
+                    }
+                }
+            }
+        },
+        {
+            "ref": "#5",
+            "elementType": "formula",
+            "descriptor": "Formula",
+            "settings": {
+                "decimalPlaces": 2,
+                "expression": "#3*1600",
+                "prefix": "$",
+                "postfix": ""
+            },
+            "advancedSettings": {
+                "visibility": {
+                    "active": true,
+                    "defaultValue": 0,
+                    "compiledRule": "",
+                    "ruleset": []
+                }
+            },
+            "label": "maxCtc",
+            "hint": "",
+            "showLabel": true,
+            "showElement": false,
+            "style": {
+                "elementBackgroundColor": {
+                    "active": false,
+                    "value": "#ffffff"
+                },
+                "label": {
+                    "active": false,
+                    "value": {
+                        "weight": "bold",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 13,
+                        "color": "#000000"
+                    }
+                },
+                "paddingLeft": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingRight": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingTop": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingBottom": {
+                    "active": false,
+                    "value": 20
+                },
+                "text": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 36,
+                        "color": "#000000"
+                    }
+                }
+            },
+            "extendedStyle": {
+                "sm": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                },
+                "md": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                }
+            },
+            "showInEmailOnly": false,
+            "revealAfterSubmission": false
+        },
+        {
+            "ref": "#17",
+            "elementType": "formula",
+            "descriptor": "Formula",
+            "settings": {
+                "decimalPlaces": 2,
+                "expression": "#2*0.0765",
+                "prefix": "",
+                "postfix": ""
+            },
+            "advancedSettings": {
+                "visibility": {
+                    "active": false,
+                    "defaultValue": 0,
+                    "compiledRule": "",
+                    "ruleset": []
+                }
+            },
+            "label": "accrCtc",
+            "hint": "",
+            "showLabel": true,
+            "showElement": false,
+            "style": {
+                "elementBackgroundColor": {
+                    "active": false,
+                    "value": "#ffffff"
+                },
+                "label": {
+                    "active": false,
+                    "value": {
+                        "weight": "bold",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 13,
+                        "color": "#000000"
+                    }
+                },
+                "paddingLeft": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingRight": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingTop": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingBottom": {
+                    "active": false,
+                    "value": 20
+                },
+                "text": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 36,
+                        "color": "#000000"
+                    }
+                }
+            },
+            "extendedStyle": {
+                "sm": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                },
+                "md": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                }
+            },
+            "revealAfterSubmission": false,
+            "showInEmailOnly": false
+        },
+        {
+            "ref": "#19",
+            "elementType": "formula",
+            "descriptor": "Formula",
+            "settings": {
+                "decimalPlaces": 0,
+                "expression": "((#17 >= #5)?(#5):(#17))",
+                "prefix": "",
+                "postfix": ""
+            },
+            "advancedSettings": {
+                "visibility": {
+                    "active": false,
+                    "defaultValue": 0,
+                    "compiledRule": "",
+                    "ruleset": []
+                }
+            },
+            "label": "min(max_ctc, accr_ctc)",
+            "hint": "",
+            "showLabel": true,
+            "showElement": false,
+            "style": {
+                "elementBackgroundColor": {
+                    "active": false,
+                    "value": "#ffffff"
+                },
+                "label": {
+                    "active": false,
+                    "value": {
+                        "weight": "bold",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 13,
+                        "color": "#000000"
+                    }
+                },
+                "paddingLeft": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingRight": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingTop": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingBottom": {
+                    "active": false,
+                    "value": 20
+                },
+                "text": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 36,
+                        "color": "#000000"
+                    }
+                }
+            },
+            "extendedStyle": {
+                "sm": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                },
+                "md": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                }
+            },
+            "revealAfterSubmission": false,
+            "showInEmailOnly": false
+        },
+        {
+            "ref": "#23",
+            "elementType": "formula",
+            "descriptor": "Formula",
+            "settings": {
+                "decimalPlaces": 2,
+                "expression": "(#2 <= #24)?#19:(#19-(floor((#2-#24)/1000))*50)",
+                "prefix": "$",
+                "postfix": ""
+            },
+            "advancedSettings": {
+                "visibility": {
+                    "active": true,
+                    "defaultValue": 0,
+                    "compiledRule": "",
+                    "ruleset": []
+                }
+            },
+            "label": "Child Tax Credit (reintegro estimado) ",
+            "hint": "",
+            "showLabel": true,
+            "showElement": false,
+            "style": {
+                "elementBackgroundColor": {
+                    "active": false,
+                    "value": "#ffffff"
+                },
+                "label": {
+                    "active": false,
+                    "value": {
+                        "weight": "bold",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 13,
+                        "color": "#000000"
+                    }
+                },
+                "paddingLeft": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingRight": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingTop": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingBottom": {
+                    "active": false,
+                    "value": 20
+                },
+                "text": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 36,
+                        "color": "#000000"
+                    }
+                }
+            },
+            "extendedStyle": {
+                "sm": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                },
+                "md": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                }
+            },
+            "showInEmailOnly": false,
+            "revealAfterSubmission": false
+        },
+        {
+            "ref": "#24",
+            "elementType": "formula",
+            "descriptor": "Formula",
+            "settings": {
+                "decimalPlaces": 0,
+                "expression": "(#1==1)?400000:200000",
+                "prefix": "",
+                "postfix": ""
+            },
+            "advancedSettings": {
+                "visibility": {
+                    "active": false,
+                    "defaultValue": 0,
+                    "compiledRule": "",
+                    "ruleset": []
+                }
+            },
+            "label": "limit",
+            "hint": "",
+            "showLabel": true,
+            "showElement": false,
+            "style": {
+                "elementBackgroundColor": {
+                    "active": false,
+                    "value": "#ffffff"
+                },
+                "label": {
+                    "active": false,
+                    "value": {
+                        "weight": "bold",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 13,
+                        "color": "#000000"
+                    }
+                },
+                "paddingLeft": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingRight": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingTop": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingBottom": {
+                    "active": false,
+                    "value": 20
+                },
+                "text": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 36,
+                        "color": "#000000"
+                    }
+                }
+            },
+            "extendedStyle": {
+                "sm": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                },
+                "md": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                }
+            },
+            "revealAfterSubmission": false,
+            "showInEmailOnly": false
+        },
+        {
+            "ref": "#25",
+            "elementType": "formula",
+            "descriptor": "Formula",
+            "settings": {
+                "decimalPlaces": 2,
+                "expression": "((#2 <= 400000)?((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))):((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))-(floor((#2-400000)/1000)*50))>0?((#2 <= 400000)?((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))):((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))-(floor((#2-400000)/1000)*50))):0)",
+                "prefix": "$",
+                "postfix": ""
+            },
+            "advancedSettings": {
+                "visibility": {
+                    "active": true,
+                    "defaultValue": 0,
+                    "compiledRule": " #1 == 1",
+                    "ruleset": [
+                        {
+                            "type": "rule",
+                            "ref": "#1",
+                            "value": "1",
+                            "condition": "=="
+                        }
+                    ]
+                }
+            },
+            "label": "Child Tax Credit (reintegro estimado) ",
+            "hint": "",
+            "showLabel": true,
+            "showElement": false,
+            "style": {
+                "elementBackgroundColor": {
+                    "active": false,
+                    "value": "#ffffff"
+                },
+                "label": {
+                    "active": false,
+                    "value": {
+                        "weight": "bold",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 13,
+                        "color": "#000000"
+                    }
+                },
+                "paddingLeft": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingRight": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingTop": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingBottom": {
+                    "active": false,
+                    "value": 20
+                },
+                "text": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 36,
+                        "color": "#000000"
+                    }
+                }
+            },
+            "extendedStyle": {
+                "sm": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                },
+                "md": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                }
+            },
+            "showInEmailOnly": false,
+            "revealAfterSubmission": false
+        },
+        {
+            "ref": "#26",
+            "elementType": "formula",
+            "descriptor": "Formula",
+            "settings": {
+                "decimalPlaces": 2,
+                "expression": "(#2 <= ((#1==1)?400000:200000))?((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))):((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))-(floor((#2-((#1==1)?400000:200000))/1000)*50))",
+                "prefix": "$",
+                "postfix": ""
+            },
+            "advancedSettings": {
+                "visibility": {
+                    "active": true,
+                    "defaultValue": 0,
+                    "compiledRule": "",
+                    "ruleset": []
+                }
+            },
+            "label": "Child Tax Credit (reintegro estimado) ",
+            "hint": "",
+            "showLabel": true,
+            "showElement": false,
+            "style": {
+                "elementBackgroundColor": {
+                    "active": false,
+                    "value": "#ffffff"
+                },
+                "label": {
+                    "active": false,
+                    "value": {
+                        "weight": "bold",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 13,
+                        "color": "#000000"
+                    }
+                },
+                "paddingLeft": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingRight": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingTop": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingBottom": {
+                    "active": false,
+                    "value": 20
+                },
+                "text": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 36,
+                        "color": "#000000"
+                    }
+                }
+            },
+            "extendedStyle": {
+                "sm": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                },
+                "md": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                }
+            },
+            "showInEmailOnly": false,
+            "revealAfterSubmission": false
+        },
+        {
+            "ref": "#28",
+            "elementType": "formula",
+            "descriptor": "Formula",
+            "settings": {
+                "decimalPlaces": 2,
+                "expression": "((#2 <= 200000)?((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))):((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))-(floor((#2-200000)/1000)*50))>0?((#2 <= 200000)?((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))):((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))-(floor((#2-200000)/1000)*50))):0)",
+                "prefix": "$",
+                "postfix": ""
+            },
+            "advancedSettings": {
+                "visibility": {
+                    "active": true,
+                    "defaultValue": 0,
+                    "compiledRule": " #1 == 2",
+                    "ruleset": [
+                        {
+                            "type": "rule",
+                            "ref": "#1",
+                            "value": "2",
+                            "condition": "=="
+                        }
+                    ]
+                }
+            },
+            "label": "Child Tax Credit (reintegro estimado) ",
+            "hint": "Soltero",
+            "showLabel": true,
+            "showElement": false,
+            "style": {
+                "elementBackgroundColor": {
+                    "active": false,
+                    "value": "#ffffff"
+                },
+                "label": {
+                    "active": false,
+                    "value": {
+                        "weight": "bold",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 13,
+                        "color": "#000000"
+                    }
+                },
+                "paddingLeft": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingRight": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingTop": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingBottom": {
+                    "active": false,
+                    "value": 20
+                },
+                "text": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 36,
+                        "color": "#000000"
+                    }
+                }
+            },
+            "extendedStyle": {
+                "sm": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                },
+                "md": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                }
+            },
+            "showInEmailOnly": false,
+            "revealAfterSubmission": false
+        },
+        {
+            "ref": "#29",
+            "elementType": "formula",
+            "descriptor": "Formula",
+            "settings": {
+                "decimalPlaces": 2,
+                "expression": "((#2 <= ((#1==1)?400000:200000))?((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))):((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))-(floor((#2-((#1==1)?400000:200000))/1000)*50))>0?((#2 <= ((#1==1)?400000:200000))?((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))):((((#2*0.0765)>= (#3*1600))?(#3*1600):(#2*0.0765))-(floor((#2-((#1==1)?400000:200000))/1000)*50))):0)",
+                "prefix": "$",
+                "postfix": ""
+            },
+            "advancedSettings": {
+                "visibility": {
+                    "active": true,
+                    "defaultValue": 0,
+                    "compiledRule": "",
+                    "ruleset": []
+                }
+            },
+            "label": "Child Tax Credit (reintegro estimado) ",
+            "hint": "",
+            "showLabel": true,
+            "showElement": true,
+            "style": {
+                "elementBackgroundColor": {
+                    "active": false,
+                    "value": "#ffffff"
+                },
+                "label": {
+                    "active": false,
+                    "value": {
+                        "weight": "bold",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 13,
+                        "color": "#000000"
+                    }
+                },
+                "paddingLeft": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingRight": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingTop": {
+                    "active": false,
+                    "value": 20
+                },
+                "paddingBottom": {
+                    "active": false,
+                    "value": 20
+                },
+                "text": {
+                    "active": false,
+                    "value": {
+                        "weight": "normal",
+                        "font": "'Open Sans', sans-serif",
+                        "size": 36,
+                        "color": "#000000"
+                    }
+                }
+            },
+            "extendedStyle": {
+                "sm": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                },
+                "md": {
+                    "elementBackgroundColor": {
+                        "active": false,
+                        "value": "#ffffff"
+                    },
+                    "paddingTop": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingBottom": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingLeft": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "paddingRight": {
+                        "active": false,
+                        "value": 20
+                    },
+                    "label": {
+                        "active": false,
+                        "value": {
+                            "weight": "bold",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 13,
+                            "color": "#000000"
+                        }
+                    },
+                    "text": {
+                        "active": false,
+                        "value": {
+                            "weight": "normal",
+                            "font": "'Open Sans', sans-serif",
+                            "size": 36,
+                            "color": "#000000"
+                        }
+                    }
+                }
+            },
+            "showInEmailOnly": false,
+            "revealAfterSubmission": false
+        }
+    ],
+    "displayEmbeddedLinks": false,
+    "isModifiedByAdmin": false,
+    "style": {
+        "textGauge": {
+            "text": {
+                "color": "rgba(255, 255, 255, 0.8)",
+                "size": 13,
+                "font": "'Open Sans', sans-serif",
+                "weight": "regular"
+            },
+            "label": {
+                "color": "rgba(255, 255, 255, 1)",
+                "size": 13,
+                "font": "'Open Sans', sans-serif",
+                "weight": "bold"
+            },
+            "title": {
+                "color": "rgba(255, 255, 255, 1)",
+                "size": 20,
+                "font": "'Open Sans', sans-serif",
+                "weight": "bold"
+            },
+            "backgroundColor2": "#EBEBEB",
+            "backgroundColor": "rgba(0, 187, 187, 1)",
+            "initialColors": [
+                "rgba(255, 216, 98, 1)",
+                "rgba(204, 255, 152, 1)",
+                "rgba(255, 198, 204, 1)"
+            ]
+        },
+        "mail": {
+            "button": {
+                "border": {
+                    "radius": 4,
+                    "color": "rgba(0, 132, 160, 1)",
+                    "size": 2
+                },
+                "text": {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "size": 14,
+                    "font": "'Open Sans', sans-serif",
+                    "weight": "bold"
+                },
+                "loaderColor": "rgba(245, 166, 35, 1)",
+                "confirmColor": "rgba(126, 211, 33, 1)",
+                "backgroundColor": "rgba(0, 132, 160, 1)"
+            },
+            "field": {
+                "border": {
+                    "radius": 4,
+                    "color": "rgba(255, 255, 255, 1)",
+                    "size": 1
+                },
+                "text": {
+                    "color": "rgba(0, 132, 160, 1)",
+                    "size": 13,
+                    "font": "'Open Sans', sans-serif",
+                    "weight": "normal"
+                },
+                "backgroundColor": "#ffffff"
+            },
+            "backgroundColor": "rgba(0, 187, 187, 1)"
+        },
+        "gauge": {
+            "backgroundColor2": "rgba(255, 255, 255, 1)",
+            "backgroundColor": "rgba(0, 160, 176, 1)",
+            "initialColors": [
+                "rgba(255, 216, 98, 1)",
+                "rgba(204, 255, 152, 1)",
+                "rgba(255, 198, 204, 1)"
+            ]
+        },
+        "text": {
+            "color": "rgba(255, 255, 255, 0.8)",
+            "size": 13,
+            "font": "'Open Sans', sans-serif",
+            "weight": "normal"
+        },
+        "slider": {
+            "backgroundColor2": "rgba(224, 252, 64, 1)",
+            "backgroundColor": "rgba(0, 160, 176, 1)"
+        },
+        "formula": {
+            "text": {
+                "color": "rgba(255, 155, 27, 1)",
+                "size": 32,
+                "font": "'Montserrat', sans-serif",
+                "weight": "bold"
+            },
+            "label": {
+                "color": "rgba(255, 255, 255, 1)",
+                "size": 13,
+                "font": "'Montserrat', sans-serif",
+                "weight": "bold"
+            },
+            "backgroundColor": "rgba(0, 182, 221, 1)"
+        },
+        "field": {
+            "border": {
+                "radius": 4,
+                "color": "rgba(255, 255, 255, 0.3)",
+                "size": 1
+            },
+            "text": {
+                "color": "rgba(0, 132, 160, 1)",
+                "size": 13,
+                "font": "'Montserrat', sans-serif",
+                "weight": "normal"
+            },
+            "backgroundColor2": "rgba(224, 252, 64, 1)",
+            "backgroundColor": "rgba(255, 255, 255, 1)",
+            "backgroundColor3": "rgba(0, 132, 160, 1)"
+        },
+        "label": {
+            "text": {
+                "color": "rgba(0, 0, 0, 1)",
+                "size": 13,
+                "font": "'Montserrat', sans-serif",
+                "weight": "bold"
+            }
+        },
+        "header": {
+            "text": {
+                "color": "rgba(255, 255, 255, 1)",
+                "size": 20,
+                "font": "'Open Sans', sans-serif",
+                "weight": "bold"
+            },
+            "backgroundColor": "rgba(0, 196, 196, 1)"
+        },
+        "base": {
+            "border": {
+                "radius": 10,
+                "color": "rgba(6, 7, 7, 1)",
+                "size": 0
+            },
+            "paddingBottom": 5,
+            "paddingTop": 15,
+            "backgroundColor": "rgba(240, 159, 42, 1)",
+            "widthType": "fixed",
+            "width": 300,
+            "paddingLeft": 20,
+            "paddingRight": 20
+        },
+        "checkbox": {
+            "border": {
+                "radius": 4,
+                "color": "rgba(225, 225, 225, 1)",
+                "size": 1
+            },
+            "backgroundColor": "rgba(255, 255, 255, 1)",
+            "backgroundColor2": "rgba(0, 0, 0, 1)"
+        },
+        "group": {
+            "label": {
+                "backgroundColor": "#ffffff",
+                "text": {
+                    "color": "#000000",
+                    "size": 13,
+                    "font": "'Open Sans', sans-serif",
+                    "weight": "bold"
+                },
+                "paddingTop": 5,
+                "paddingBottom": 5,
+                "paddingLeft": 20,
+                "paddingRight": 20
+            },
+            "paddingTop": 5,
+            "paddingBottom": 5,
+            "paddingLeft": 20,
+            "paddingRight": 20
+        },
+        "select": {
+            "backgroundColor": "#ffffff",
+            "activeBackgroundColor": "rgba(0, 0, 0, 0.7)",
+            "hoverBackgroundColor": "rgba(0, 0, 0, 0.7)",
+            "text": {
+                "color": "#000000",
+                "size": 13,
+                "font": "'Montserrat', sans-serif",
+                "weight": "normal"
+            },
+            "activeText": {
+                "color": "rgba(255, 255, 255, 1)",
+                "size": 13,
+                "font": "'Montserrat', sans-serif",
+                "weight": "normal"
+            },
+            "hoverText": {
+                "color": "rgba(255, 255, 255, 1)",
+                "size": 13,
+                "font": "'Montserrat', sans-serif",
+                "weight": "normal"
+            },
+            "border": {
+                "radius": 4,
+                "color": "rgba(245, 166, 35, 1)",
+                "size": 1
+            }
+        },
+        "h1": {
+            "weight": "normal",
+            "color": "#000000",
+            "font": "'Open Sans', sans-serif",
+            "size": 24,
+            "textDecoration": "none"
+        },
+        "h2": {
+            "weight": "normal",
+            "color": "#000000",
+            "font": "'Open Sans', sans-serif",
+            "size": 18,
+            "textDecoration": "none"
+        },
+        "h3": {
+            "weight": "normal",
+            "color": "#000000",
+            "font": "'Open Sans', sans-serif",
+            "size": 14,
+            "textDecoration": "none"
+        },
+        "valueLookup": {
+            "backgroundColor": "#a4a4a4",
+            "label": {
+                "weight": "bold",
+                "font": "'Open Sans', sans-serif",
+                "size": 13,
+                "color": "#000000"
+            },
+            "text": {
+                "weight": "bold",
+                "font": "'Open Sans', sans-serif",
+                "size": 32,
+                "color": "#ffffff"
+            }
+        }
+    },
+    "layouts": {
+        "lg": [
+            {
+                "w": 6,
+                "h": 116,
+                "x": 0,
+                "y": 0,
+                "i": "#1",
+                "minH": 70,
+                "moved": false,
+                "static": false,
+                "hidden": false
+            },
+            {
+                "w": 6,
+                "h": 116,
+                "x": 6,
+                "y": 0,
+                "i": "#2",
+                "minH": 70,
+                "moved": false,
+                "static": false,
+                "hidden": false
+            },
+            {
+                "w": 6,
+                "h": 119,
+                "x": 0,
+                "y": 116,
+                "i": "#3",
+                "minH": 74,
+                "moved": false,
+                "static": false,
+                "hidden": false
+            },
+            {
+                "w": 12,
+                "h": 98,
+                "x": 0,
+                "y": 235,
+                "i": "#5",
+                "minH": 74,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 12,
+                "h": 11,
+                "x": 0,
+                "y": 823,
+                "i": "#17",
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 12,
+                "h": 11,
+                "x": 0,
+                "y": 834,
+                "i": "#19",
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 12,
+                "h": 98,
+                "x": 0,
+                "y": 333,
+                "i": "#23",
+                "minH": 74,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 12,
+                "h": 11,
+                "x": 0,
+                "y": 845,
+                "i": "#24",
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 12,
+                "h": 98,
+                "x": 0,
+                "y": 431,
+                "i": "#25",
+                "minH": 74,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 12,
+                "h": 98,
+                "x": 0,
+                "y": 627,
+                "i": "#26",
+                "minH": 74,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 12,
+                "h": 98,
+                "x": 0,
+                "y": 529,
+                "i": "#28",
+                "minH": 74,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 12,
+                "h": 98,
+                "x": 0,
+                "y": 725,
+                "i": "#29",
+                "minH": 74,
+                "moved": false,
+                "static": false,
+                "hidden": false
+            }
+        ],
+        "md": [
+            {
+                "w": 6,
+                "h": 80,
+                "x": 0,
+                "y": 0,
+                "i": "#1",
+                "minH": 78,
+                "moved": false,
+                "static": false,
+                "hidden": false
+            },
+            {
+                "w": 6,
+                "h": 91,
+                "x": 0,
+                "y": 80,
+                "i": "#2",
+                "minH": 78,
+                "moved": false,
+                "static": false,
+                "hidden": false
+            },
+            {
+                "w": 3,
+                "h": 126,
+                "x": 0,
+                "y": 171,
+                "i": "#3",
+                "minH": 78,
+                "moved": false,
+                "static": false,
+                "hidden": false
+            },
+            {
+                "w": 6,
+                "h": 80,
+                "x": 0,
+                "y": 297,
+                "i": "#5",
+                "minH": 80,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 6,
+                "h": 11,
+                "x": 0,
+                "y": 777,
+                "i": "#17",
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 6,
+                "h": 11,
+                "x": 0,
+                "y": 788,
+                "i": "#19",
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 6,
+                "h": 80,
+                "x": 0,
+                "y": 377,
+                "i": "#23",
+                "minH": 80,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 6,
+                "h": 11,
+                "x": 0,
+                "y": 799,
+                "i": "#24",
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 6,
+                "h": 80,
+                "x": 0,
+                "y": 457,
+                "i": "#25",
+                "minH": 80,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 6,
+                "h": 80,
+                "x": 0,
+                "y": 617,
+                "i": "#26",
+                "minH": 80,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 6,
+                "h": 80,
+                "x": 0,
+                "y": 537,
+                "i": "#28",
+                "minH": 80,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 6,
+                "h": 80,
+                "x": 0,
+                "y": 697,
+                "i": "#29",
+                "minH": 80,
+                "moved": false,
+                "static": false,
+                "hidden": false
+            }
+        ],
+        "sm": [
+            {
+                "w": 3,
+                "h": 100,
+                "x": 0,
+                "y": 0,
+                "i": "#1",
+                "minH": 50,
+                "moved": false,
+                "static": false,
+                "hidden": false
+            },
+            {
+                "w": 3,
+                "h": 80,
+                "x": 0,
+                "y": 100,
+                "i": "#2",
+                "minH": 50,
+                "moved": false,
+                "static": false,
+                "hidden": false
+            },
+            {
+                "w": 3,
+                "h": 115,
+                "x": 0,
+                "y": 180,
+                "i": "#3",
+                "minH": 78,
+                "moved": false,
+                "static": false,
+                "hidden": false
+            },
+            {
+                "w": 3,
+                "h": 112,
+                "x": 0,
+                "y": 743,
+                "i": "#5",
+                "minH": 30,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 3,
+                "h": 80,
+                "x": 0,
+                "y": 855,
+                "i": "#17",
+                "minH": 30,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 3,
+                "h": 80,
+                "x": 0,
+                "y": 935,
+                "i": "#19",
+                "minH": 30,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 3,
+                "h": 112,
+                "x": 0,
+                "y": 1015,
+                "i": "#23",
+                "minH": 30,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 3,
+                "h": 80,
+                "x": 0,
+                "y": 1127,
+                "i": "#24",
+                "minH": 30,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 3,
+                "h": 112,
+                "x": 0,
+                "y": 407,
+                "i": "#25",
+                "minH": 30,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 3,
+                "h": 112,
+                "x": 0,
+                "y": 631,
+                "i": "#26",
+                "minH": 30,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 3,
+                "h": 112,
+                "x": 0,
+                "y": 519,
+                "i": "#28",
+                "minH": 30,
+                "moved": false,
+                "static": false,
+                "hidden": true,
+                "isDraggable": true,
+                "isResizable": true
+            },
+            {
+                "w": 3,
+                "h": 112,
+                "x": 0,
+                "y": 295,
+                "i": "#29",
+                "minH": 30,
+                "moved": false,
+                "static": false,
+                "hidden": false
+            }
+        ]
+    },
+    "owner": "61a57f3e99577200212fa3cb",
+    "newElementCount": {
+        "md": 31
+    },
+    "installable": true,
+    "origin": "61f1ebc982f52a0021a23649",
+    "__v": 0,
+    "extendedStyle": {
+        "md": {},
+        "sm": {}
+    },
+    "message": false
+}
