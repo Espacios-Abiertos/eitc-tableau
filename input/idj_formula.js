@@ -23,13 +23,13 @@ function get_credito_estimado(estado_civil, salario_bruto, dependientes) {
     //         ? (salario_bruto <= ingreso_maximo ? min_salario_dependientes : min_salario_dependientes - salario_diff_scaled)
     //         : 0;
 
-    if (salario_bruto <= ingreso_maximo) return min_salario_dependientes;
-    if (min_salario_dependientes <= salario_diff_scaled) return 0;
+    if (salario_bruto <= ingreso_maximo) return min_salario_dependientes; // 99% de los casos el salario bruto es menor de $200k or $400k
+    if (min_salario_dependientes <= salario_diff_scaled) return 0; // solo when salario_bruto AT LEAST over $200k (o sea nunca)
 
     if (salario_bruto <= ingreso_maximo) {
-        return min_salario_dependientes
+        return min_salario_dependientes // this case is never reached wth
     } else {
-        return min_salario_dependientes - salario_diff_scaled
+        return min_salario_dependientes - salario_diff_scaled // Esta es cuando el salario bruto es mayor de $200k o $400k (rarely)
     }
 
 }
