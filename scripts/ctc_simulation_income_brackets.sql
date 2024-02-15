@@ -50,4 +50,4 @@ from filled_bracket_limits
 
 copy ctc_simulation_income_brackets to 'output/ctc_simulation_income_brackets.parquet' (format parquet);
 
-from ctc_simulation_income_brackets
+from ctc_simulation_income_brackets;

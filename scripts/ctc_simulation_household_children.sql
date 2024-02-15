@@ -1,5 +1,12 @@
 create or replace table ctc_simulation_household_children as (
 with initial_import as (
+
+select *
+    replace (
+        "Under 18Y".replace(',','')::INT as "Under 18Y",
+        "Under 16Y".replace(',','')::INT as "Under 16Y",
+        "Under 17Y".replace(',','')::INT as "Under 17Y",
+    )
 from read_csv_auto('input/ctc_simulation_input.csv', header=true)
 ),
 
@@ -8,7 +15,14 @@ renamed_columns as (
         Municipio as "municipio",
         "Total households" as total_households,
         "Households with one or more people under 18 years" as percentage_households_with_people_under_18,
-        "Under 18Y" as total_people_under_18
+
+        -- CHOOSE ONE OF THE FOLLOWING:
+        -- Whichever elijas tiene que mantener el nombre de "under_18" para que el resto del script funcione pero pichea
+        -- "Under 18Y" as total_people_under_18,
+        -- "Under 16Y" as total_people_under_18,
+        -- "Under 17Y" as total_people_under_18,
+        ("Under 16Y" + 0.5*("Under 18Y" - "Under 16Y")).ceil() as total_people_under_18,
+
     from initial_import
 ),
 
@@ -42,4 +56,4 @@ from allocate_children_to_households
 
 copy ctc_simulation_household_children to 'output/ctc_simulation_household_children.parquet' (format parquet);
 
-from ctc_simulation_household_children
+from ctc_simulation_household_children;

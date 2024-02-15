@@ -107,6 +107,7 @@ copy ctc_simulation to 'output/ctc_simulation.parquet' (format parquet);
 
 -- Municipio aggregate results
 -- Manualmente mover a Excel, usa python to export to a dataframe or un archivo or just use harlequin y copypaste a un Excel
+create or replace table ctc_simulation_municipios as (
    select
        municipio,
        sum(ctc_credit * total_households) as total_ctc_credit
@@ -114,3 +115,6 @@ copy ctc_simulation to 'output/ctc_simulation.parquet' (format parquet);
    where municipio is not null
    group by municipio
    order by municipio
+);
+
+copy ctc_simulation_municipios to 'output/ctc_simulation_municipios.parquet' (format parquet);

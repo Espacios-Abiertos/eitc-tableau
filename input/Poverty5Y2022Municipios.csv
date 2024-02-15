@@ -1,235 +1,235 @@
-Municipio,Population served,Total Population,Under 18Y
-Adjuntas,Total,"17,929","3,254"
-Aguada,Total,"37,866","6,094"
-Aguadilla,Total,"54,056","9,473"
-Aguas Buenas,Total,"24,013","4,141"
-Aibonito,Total,"24,528","4,185"
-Añasco,Total,"25,360","4,125"
-Arecibo,Total,"86,287","14,679"
-Arroyo,Total,"15,774","3,059"
-Barceloneta,Total,"22,590","4,026"
-Barranquitas,Total,"28,717","5,848"
-Bayamón,Total,"179,387","29,908"
-Cabo Rojo,Total,"46,790","7,571"
-Caguas,Total,"125,961","21,430"
-Camuy,Total,"32,541","5,384"
-Canóvanas,Total,"42,034","7,687"
-Carolina,Total,"153,371","25,240"
-Cataño,Total,"23,025","4,115"
-Cayey,Total,"41,481","6,909"
-Ceiba,Total,"11,181","1,750"
-Ciales,Total,"16,872","3,002"
-Cidra,Total,"39,700","7,168"
-Coamo,Total,"34,435","6,095"
-Comerío,Total,"18,806","3,404"
-Corozal,Total,"34,257","6,524"
-Culebra,Total,"1,182",202
-Dorado,Total,"35,717","6,803"
-Fajardo,Total,"31,852","5,686"
-Florida,Total,"11,614","2,132"
-Guánica,Total,"13,527","2,361"
-Guayama,Total,"33,948","6,453"
-Guayanilla,Total,"17,590","3,238"
-Guaynabo,Total,"89,178","13,261"
-Gurabo,Total,"40,331","7,271"
-Hatillo,Total,"38,219","6,236"
-Hormigueros,Total,"15,477","2,265"
-Humacao,Total,"50,410","8,382"
-Isabela,Total,"42,415","7,005"
-Jayuya,Total,"14,691","2,941"
-Juana Díaz,Total,"45,939","8,878"
-Juncos,Total,"36,868","7,039"
-Lajas,Total,"23,152","3,741"
-Lares,Total,"27,679","4,720"
-Las Marías,Total,"8,752","1,672"
-Las Piedras,Total,"35,044","6,247"
-Loíza,Total,"23,537","4,311"
-Luquillo,Total,"17,681","2,999"
-Manatí,Total,"39,078","6,970"
-Maricao,Total,"5,354",909
-Maunabo,Total,"10,556","1,789"
-Mayagüez,Total,"71,671","11,608"
-Moca,Total,"37,179","6,716"
-Morovis,Total,"28,603","5,324"
-Naguabo,Total,"23,267","4,618"
-Naranjito,Total,"29,085","5,259"
-Orocovis,Total,"21,240","4,132"
-Patillas,Total,"15,913","2,625"
-Peñuelas,Total,"20,273","4,117"
-Ponce,Total,"133,340","24,724"
-Quebradillas,Total,"23,483","4,100"
-Rincón,Total,"15,123","2,249"
-Río Grande,Total,"46,323","7,878"
-Sabana Grande,Total,"22,497","3,974"
-Salinas,Total,"25,549","4,874"
-San Germán,Total,"31,269","5,434"
-San Juan,Total,"335,621","55,249"
-San Lorenzo,Total,"37,469","6,360"
-San Sebastián,Total,"38,993","6,753"
-Santa Isabel,Total,"20,196","3,916"
-Toa Alta,Total,"66,493","12,015"
-Toa Baja,Total,"74,410","12,850"
-Trujillo Alto,Total,"67,158","11,637"
-Utuado,Total,"28,034","4,889"
-Vega Alta,Total,"34,960","6,630"
-Vega Baja,Total,"53,847","9,283"
-Vieques,Total,"8,199","1,474"
-Villalba,Total,"21,858","4,196"
-Yabucoa,Total,"30,293","5,099"
-Yauco,Total,"33,818","5,767"
-Adjuntas,Percent below poverty level,63.4%,76.3%
-Aguada,Percent below poverty level,47.2%,57.6%
-Aguadilla,Percent below poverty level,48.7%,60.2%
-Aguas Buenas,Percent below poverty level,42.9%,64.9%
-Aibonito,Percent below poverty level,42.5%,59.8%
-Añasco,Percent below poverty level,46.6%,57.9%
-Arecibo,Percent below poverty level,44.9%,59.2%
-Arroyo,Percent below poverty level,57.7%,72.3%
-Barceloneta,Percent below poverty level,46.6%,60.9%
-Barranquitas,Percent below poverty level,50.0%,67.6%
-Bayamón,Percent below poverty level,34.8%,51.4%
-Cabo Rojo,Percent below poverty level,42.1%,46.3%
-Caguas,Percent below poverty level,37.0%,50.8%
-Camuy,Percent below poverty level,41.7%,54.5%
-Canóvanas,Percent below poverty level,36.4%,54.1%
-Carolina,Percent below poverty level,31.0%,47.1%
-Cataño,Percent below poverty level,45.6%,62.4%
-Cayey,Percent below poverty level,39.8%,51.3%
-Ceiba,Percent below poverty level,41.8%,66.2%
-Ciales,Percent below poverty level,55.7%,65.6%
-Cidra,Percent below poverty level,39.0%,47.6%
-Coamo,Percent below poverty level,49.9%,59.1%
-Comerío,Percent below poverty level,53.3%,69.6%
-Corozal,Percent below poverty level,46.1%,56.0%
-Culebra,Percent below poverty level,23.5%,21.8%
-Dorado,Percent below poverty level,30.6%,35.9%
-Fajardo,Percent below poverty level,42.6%,65.7%
-Florida,Percent below poverty level,47.4%,67.7%
-Guánica,Percent below poverty level,66.3%,75.3%
-Guayama,Percent below poverty level,48.0%,62.6%
-Guayanilla,Percent below poverty level,53.4%,69.6%
-Guaynabo,Percent below poverty level,25.1%,36.5%
-Gurabo,Percent below poverty level,31.9%,42.7%
-Hatillo,Percent below poverty level,39.3%,47.6%
-Hormigueros,Percent below poverty level,41.1%,49.9%
-Humacao,Percent below poverty level,37.1%,53.3%
-Isabela,Percent below poverty level,48.2%,54.1%
-Jayuya,Percent below poverty level,54.7%,64.6%
-Juana Díaz,Percent below poverty level,44.3%,53.2%
-Juncos,Percent below poverty level,38.1%,48.8%
-Lajas,Percent below poverty level,56.1%,77.1%
-Lares,Percent below poverty level,56.0%,68.3%
-Las Marías,Percent below poverty level,52.8%,71.4%
-Las Piedras,Percent below poverty level,39.1%,48.4%
-Loíza,Percent below poverty level,45.4%,62.2%
-Luquillo,Percent below poverty level,45.3%,56.6%
-Manatí,Percent below poverty level,45.5%,57.7%
-Maricao,Percent below poverty level,52.0%,64.1%
-Maunabo,Percent below poverty level,49.9%,66.0%
-Mayagüez,Percent below poverty level,53.5%,73.2%
-Moca,Percent below poverty level,46.7%,52.0%
-Morovis,Percent below poverty level,47.5%,54.4%
-Naguabo,Percent below poverty level,47.9%,70.0%
-Naranjito,Percent below poverty level,48.8%,70.0%
-Orocovis,Percent below poverty level,55.9%,64.0%
-Patillas,Percent below poverty level,48.5%,70.0%
-Peñuelas,Percent below poverty level,52.1%,65.5%
-Ponce,Percent below poverty level,50.4%,66.9%
-Quebradillas,Percent below poverty level,46.1%,54.2%
-Rincón,Percent below poverty level,41.3%,55.7%
-Río Grande,Percent below poverty level,36.2%,49.3%
-Sabana Grande,Percent below poverty level,46.0%,61.0%
-Salinas,Percent below poverty level,50.5%,67.9%
-San Germán,Percent below poverty level,49.8%,65.6%
-San Juan,Percent below poverty level,39.5%,59.2%
-San Lorenzo,Percent below poverty level,45.3%,51.1%
-San Sebastián,Percent below poverty level,52.4%,66.2%
-Santa Isabel,Percent below poverty level,46.4%,55.8%
-Toa Alta,Percent below poverty level,32.3%,42.5%
-Toa Baja,Percent below poverty level,35.4%,47.5%
-Trujillo Alto,Percent below poverty level,29.2%,39.5%
-Utuado,Percent below poverty level,53.7%,64.4%
-Vega Alta,Percent below poverty level,42.3%,48.6%
-Vega Baja,Percent below poverty level,43.2%,55.3%
-Vieques,Percent below poverty level,54.1%,87.6%
-Villalba,Percent below poverty level,42.7%,50.7%
-Yabucoa,Percent below poverty level,49.7%,63.1%
-Yauco,Percent below poverty level,43.7%,53.8%
-Adjuntas,Below poverty level,"11,363","2,482"
-Aguada,Below poverty level,"17,874","3,512"
-Aguadilla,Below poverty level,"26,316","5,699"
-Aguas Buenas,Below poverty level,"10,305","2,689"
-Aibonito,Below poverty level,"10,416","2,503"
-Añasco,Below poverty level,"11,819","2,387"
-Arecibo,Below poverty level,"38,784","8,688"
-Arroyo,Below poverty level,"9,102","2,213"
-Barceloneta,Below poverty level,"10,535","2,450"
-Barranquitas,Below poverty level,"14,345","3,954"
-Bayamón,Below poverty level,"62,443","15,387"
-Cabo Rojo,Below poverty level,"19,720","3,502"
-Caguas,Below poverty level,"46,638","10,876"
-Camuy,Below poverty level,"13,563","2,933"
-Canóvanas,Below poverty level,"15,289","4,160"
-Carolina,Below poverty level,"47,473","11,887"
-Cataño,Below poverty level,"10,501","2,567"
-Cayey,Below poverty level,"16,494","3,542"
-Ceiba,Below poverty level,"4,670","1,158"
-Ciales,Below poverty level,"9,403","1,969"
-Cidra,Below poverty level,"15,496","3,410"
-Coamo,Below poverty level,"17,166","3,603"
-Comerío,Below poverty level,"10,020","2,369"
-Corozal,Below poverty level,"15,796","3,653"
-Culebra,Below poverty level,278,44
-Dorado,Below poverty level,"10,932","2,443"
-Fajardo,Below poverty level,"13,572","3,738"
-Florida,Below poverty level,"5,500","1,444"
-Guánica,Below poverty level,"8,971","1,779"
-Guayama,Below poverty level,"16,304","4,041"
-Guayanilla,Below poverty level,"9,394","2,253"
-Guaynabo,Below poverty level,"22,396","4,837"
-Gurabo,Below poverty level,"12,880","3,103"
-Hatillo,Below poverty level,"15,031","2,970"
-Hormigueros,Below poverty level,"6,367","1,130"
-Humacao,Below poverty level,"18,710","4,470"
-Isabela,Below poverty level,"20,452","3,790"
-Jayuya,Below poverty level,"8,041","1,900"
-Juana Díaz,Below poverty level,"20,358","4,722"
-Juncos,Below poverty level,"14,031","3,435"
-Lajas,Below poverty level,"12,980","2,884"
-Lares,Below poverty level,"15,493","3,224"
-Las Marías,Below poverty level,"4,622","1,194"
-Las Piedras,Below poverty level,"13,709","3,026"
-Loíza,Below poverty level,"10,675","2,683"
-Luquillo,Below poverty level,"8,011","1,697"
-Manatí,Below poverty level,"17,778","4,021"
-Maricao,Below poverty level,"2,785",583
-Maunabo,Below poverty level,"5,269","1,180"
-Mayagüez,Below poverty level,"38,354","8,502"
-Moca,Below poverty level,"17,346","3,489"
-Morovis,Below poverty level,"13,586","2,895"
-Naguabo,Below poverty level,"11,155","3,234"
-Naranjito,Below poverty level,"14,187","3,683"
-Orocovis,Below poverty level,"11,866","2,646"
-Patillas,Below poverty level,"7,716","1,837"
-Peñuelas,Below poverty level,"10,569","2,698"
-Ponce,Below poverty level,"67,242","16,540"
-Quebradillas,Below poverty level,"10,826","2,224"
-Rincón,Below poverty level,"6,243","1,252"
-Río Grande,Below poverty level,"16,786","3,885"
-Sabana Grande,Below poverty level,"10,350","2,424"
-Salinas,Below poverty level,"12,908","3,311"
-San Germán,Below poverty level,"15,579","3,565"
-San Juan,Below poverty level,"132,586","32,728"
-San Lorenzo,Below poverty level,"16,961","3,252"
-San Sebastián,Below poverty level,"20,449","4,473"
-Santa Isabel,Below poverty level,"9,377","2,185"
-Toa Alta,Below poverty level,"21,469","5,103"
-Toa Baja,Below poverty level,"26,378","6,102"
-Trujillo Alto,Below poverty level,"19,642","4,601"
-Utuado,Below poverty level,"15,053","3,148"
-Vega Alta,Below poverty level,"14,782","3,223"
-Vega Baja,Below poverty level,"23,265","5,136"
-Vieques,Below poverty level,"4,433","1,291"
-Villalba,Below poverty level,"9,342","2,127"
-Yabucoa,Below poverty level,"15,070","3,216"
-Yauco,Below poverty level,"14,770","3,100"
+Municipio,Population served,Total Population,Under 18Y,15 and under,16 and under 2020 census
+Adjuntas,Total,"17,929",3277,2861,2977
+Aguada,Total,"37,866",6159,5241,5739
+Aguadilla,Total,"54,056",9511,8208,8759
+Aguas Buenas,Total,"24,013",4166,3542,3827
+Aibonito,Total,"24,528",4185,3503,4109
+Añasco,Total,"25,360",4166,3431,3860
+Arecibo,Total,"86,287",14721,12490,13503
+Arroyo,Total,"15,774",3059,2619,2675
+Barceloneta,Total,"22,590",4026,3547,3908
+Barranquitas,Total,"28,717",5934,5156,5234
+Bayamón,Total,"179,387",30190,26018,28577
+Cabo Rojo,Total,"46,790",7629,6374,7129
+Caguas,Total,"125,961",21673,18437,19678
+Camuy,Total,"32,541",5507,4701,5209
+Canóvanas,Total,"42,034",7836,6989,7190
+Carolina,Total,"153,371",25480,21870,23283
+Cataño,Total,"23,025",4150,3617,3877
+Cayey,Total,"41,481",6909,5793,6455
+Ceiba,Total,"11,181",1812,1658,1805
+Ciales,Total,"16,872",3047,2686,2972
+Cidra,Total,"39,700",7225,6246,6402
+Coamo,Total,"34,435",6172,5377,5897
+Comerío,Total,"18,806",3404,3062,3303
+Corozal,Total,"34,257",6583,5727,5952
+Culebra,Total,"1,182",206,173,249
+Dorado,Total,"35,717",6809,5722,6291
+Fajardo,Total,"31,852",5706,5064,5207
+Florida,Total,"11,614",2132,1830,2033
+Guánica,Total,"13,527",2498,2298,2124
+Guayama,Total,"33,948",6537,5695,5722
+Guayanilla,Total,"17,590",3263,2941,2858
+Guaynabo,Total,"89,178",13323,11297,13054
+Gurabo,Total,"40,331",7290,6351,6449
+Hatillo,Total,"38,219",6274,5427,6109
+Hormigueros,Total,"15,477",2284,1913,2089
+Humacao,Total,"50,410",8530,7372,7983
+Isabela,Total,"42,415",7121,6016,6796
+Jayuya,Total,"14,691",2941,2671,2634
+Juana Díaz,Total,"45,939",8959,7548,8331
+Juncos,Total,"36,868",7039,6199,6688
+Lajas,Total,"23,152",3741,3215,3470
+Lares,Total,"27,679",4773,4083,4282
+Las Marías,Total,"8,752",1672,1425,1508
+Las Piedras,Total,"35,044",6247,5376,5908
+Loíza,Total,"23,537",4344,3725,4128
+Luquillo,Total,"17,681",3025,2481,2774
+Manatí,Total,"39,078",6970,6053,6350
+Maricao,Total,"5,354",909,806,794
+Maunabo,Total,"10,556",1789,1486,1618
+Mayagüez,Total,"71,671",11631,9820,10441
+Moca,Total,"37,179",6765,5750,6237
+Morovis,Total,"28,603",5350,4695,4964
+Naguabo,Total,"23,267",4645,3991,4101
+Naranjito,Total,"29,085",5285,4529,4986
+Orocovis,Total,"21,240",4132,3515,3720
+Patillas,Total,"15,913",2625,2270,2342
+Peñuelas,Total,"20,273",4141,3546,3633
+Ponce,Total,"133,340",24816,21529,22039
+Quebradillas,Total,"23,483",4141,3626,3827
+Rincón,Total,"15,123",2267,2002,2142
+Río Grande,Total,"46,323",7878,6644,7503
+Sabana Grande,Total,"22,497",4007,3435,3689
+Salinas,Total,"25,549",4928,3994,4192
+San Germán,Total,"31,269",5477,4719,4994
+San Juan,Total,"335,621",55484,48355,50298
+San Lorenzo,Total,"37,469",6391,5345,5984
+San Sebastián,Total,"38,993",6768,5767,6264
+Santa Isabel,Total,"20,196",3916,3182,3556
+Toa Alta,Total,"66,493",12039,10169,11540
+Toa Baja,Total,"74,410",12968,11069,11248
+Trujillo Alto,Total,"67,158",11637,9811,10896
+Utuado,Total,"28,034",4928,4199,4493
+Vega Alta,Total,"34,960",6678,5620,6072
+Vega Baja,Total,"53,847",9459,8213,9110
+Vieques,Total,"8,199",1474,1287,1462
+Villalba,Total,"21,858",4277,3758,3738
+Yabucoa,Total,"30,293",5099,4380,4526
+Yauco,Total,"33,818",5767,4933,5065
+Adjuntas,Percent below poverty level,63.4%,76.3%,,
+Aguada,Percent below poverty level,47.2%,57.6%,,
+Aguadilla,Percent below poverty level,48.7%,60.2%,,
+Aguas Buenas,Percent below poverty level,42.9%,64.9%,,
+Aibonito,Percent below poverty level,42.5%,59.8%,,
+Añasco,Percent below poverty level,46.6%,57.9%,,
+Arecibo,Percent below poverty level,44.9%,59.2%,,
+Arroyo,Percent below poverty level,57.7%,72.3%,,
+Barceloneta,Percent below poverty level,46.6%,60.9%,,
+Barranquitas,Percent below poverty level,50.0%,67.6%,,
+Bayamón,Percent below poverty level,34.8%,51.4%,,
+Cabo Rojo,Percent below poverty level,42.1%,46.3%,,
+Caguas,Percent below poverty level,37.0%,50.8%,,
+Camuy,Percent below poverty level,41.7%,54.5%,,
+Canóvanas,Percent below poverty level,36.4%,54.1%,,
+Carolina,Percent below poverty level,31.0%,47.1%,,
+Cataño,Percent below poverty level,45.6%,62.4%,,
+Cayey,Percent below poverty level,39.8%,51.3%,,
+Ceiba,Percent below poverty level,41.8%,66.2%,,
+Ciales,Percent below poverty level,55.7%,65.6%,,
+Cidra,Percent below poverty level,39.0%,47.6%,,
+Coamo,Percent below poverty level,49.9%,59.1%,,
+Comerío,Percent below poverty level,53.3%,69.6%,,
+Corozal,Percent below poverty level,46.1%,56.0%,,
+Culebra,Percent below poverty level,23.5%,21.8%,,
+Dorado,Percent below poverty level,30.6%,35.9%,,
+Fajardo,Percent below poverty level,42.6%,65.7%,,
+Florida,Percent below poverty level,47.4%,67.7%,,
+Guánica,Percent below poverty level,66.3%,75.3%,,
+Guayama,Percent below poverty level,48.0%,62.6%,,
+Guayanilla,Percent below poverty level,53.4%,69.6%,,
+Guaynabo,Percent below poverty level,25.1%,36.5%,,
+Gurabo,Percent below poverty level,31.9%,42.7%,,
+Hatillo,Percent below poverty level,39.3%,47.6%,,
+Hormigueros,Percent below poverty level,41.1%,49.9%,,
+Humacao,Percent below poverty level,37.1%,53.3%,,
+Isabela,Percent below poverty level,48.2%,54.1%,,
+Jayuya,Percent below poverty level,54.7%,64.6%,,
+Juana Díaz,Percent below poverty level,44.3%,53.2%,,
+Juncos,Percent below poverty level,38.1%,48.8%,,
+Lajas,Percent below poverty level,56.1%,77.1%,,
+Lares,Percent below poverty level,56.0%,68.3%,,
+Las Marías,Percent below poverty level,52.8%,71.4%,,
+Las Piedras,Percent below poverty level,39.1%,48.4%,,
+Loíza,Percent below poverty level,45.4%,62.2%,,
+Luquillo,Percent below poverty level,45.3%,56.6%,,
+Manatí,Percent below poverty level,45.5%,57.7%,,
+Maricao,Percent below poverty level,52.0%,64.1%,,
+Maunabo,Percent below poverty level,49.9%,66.0%,,
+Mayagüez,Percent below poverty level,53.5%,73.2%,,
+Moca,Percent below poverty level,46.7%,52.0%,,
+Morovis,Percent below poverty level,47.5%,54.4%,,
+Naguabo,Percent below poverty level,47.9%,70.0%,,
+Naranjito,Percent below poverty level,48.8%,70.0%,,
+Orocovis,Percent below poverty level,55.9%,64.0%,,
+Patillas,Percent below poverty level,48.5%,70.0%,,
+Peñuelas,Percent below poverty level,52.1%,65.5%,,
+Ponce,Percent below poverty level,50.4%,66.9%,,
+Quebradillas,Percent below poverty level,46.1%,54.2%,,
+Rincón,Percent below poverty level,41.3%,55.7%,,
+Río Grande,Percent below poverty level,36.2%,49.3%,,
+Sabana Grande,Percent below poverty level,46.0%,61.0%,,
+Salinas,Percent below poverty level,50.5%,67.9%,,
+San Germán,Percent below poverty level,49.8%,65.6%,,
+San Juan,Percent below poverty level,39.5%,59.2%,,
+San Lorenzo,Percent below poverty level,45.3%,51.1%,,
+San Sebastián,Percent below poverty level,52.4%,66.2%,,
+Santa Isabel,Percent below poverty level,46.4%,55.8%,,
+Toa Alta,Percent below poverty level,32.3%,42.5%,,
+Toa Baja,Percent below poverty level,35.4%,47.5%,,
+Trujillo Alto,Percent below poverty level,29.2%,39.5%,,
+Utuado,Percent below poverty level,53.7%,64.4%,,
+Vega Alta,Percent below poverty level,42.3%,48.6%,,
+Vega Baja,Percent below poverty level,43.2%,55.3%,,
+Vieques,Percent below poverty level,54.1%,87.6%,,
+Villalba,Percent below poverty level,42.7%,50.7%,,
+Yabucoa,Percent below poverty level,49.7%,63.1%,,
+Yauco,Percent below poverty level,43.7%,53.8%,,
+Adjuntas,Below poverty level,"11,363","2,482",,
+Aguada,Below poverty level,"17,874","3,512",,
+Aguadilla,Below poverty level,"26,316","5,699",,
+Aguas Buenas,Below poverty level,"10,305","2,689",,
+Aibonito,Below poverty level,"10,416","2,503",,
+Añasco,Below poverty level,"11,819","2,387",,
+Arecibo,Below poverty level,"38,784","8,688",,
+Arroyo,Below poverty level,"9,102","2,213",,
+Barceloneta,Below poverty level,"10,535","2,450",,
+Barranquitas,Below poverty level,"14,345","3,954",,
+Bayamón,Below poverty level,"62,443","15,387",,
+Cabo Rojo,Below poverty level,"19,720","3,502",,
+Caguas,Below poverty level,"46,638","10,876",,
+Camuy,Below poverty level,"13,563","2,933",,
+Canóvanas,Below poverty level,"15,289","4,160",,
+Carolina,Below poverty level,"47,473","11,887",,
+Cataño,Below poverty level,"10,501","2,567",,
+Cayey,Below poverty level,"16,494","3,542",,
+Ceiba,Below poverty level,"4,670","1,158",,
+Ciales,Below poverty level,"9,403","1,969",,
+Cidra,Below poverty level,"15,496","3,410",,
+Coamo,Below poverty level,"17,166","3,603",,
+Comerío,Below poverty level,"10,020","2,369",,
+Corozal,Below poverty level,"15,796","3,653",,
+Culebra,Below poverty level,278,44,,
+Dorado,Below poverty level,"10,932","2,443",,
+Fajardo,Below poverty level,"13,572","3,738",,
+Florida,Below poverty level,"5,500","1,444",,
+Guánica,Below poverty level,"8,971","1,779",,
+Guayama,Below poverty level,"16,304","4,041",,
+Guayanilla,Below poverty level,"9,394","2,253",,
+Guaynabo,Below poverty level,"22,396","4,837",,
+Gurabo,Below poverty level,"12,880","3,103",,
+Hatillo,Below poverty level,"15,031","2,970",,
+Hormigueros,Below poverty level,"6,367","1,130",,
+Humacao,Below poverty level,"18,710","4,470",,
+Isabela,Below poverty level,"20,452","3,790",,
+Jayuya,Below poverty level,"8,041","1,900",,
+Juana Díaz,Below poverty level,"20,358","4,722",,
+Juncos,Below poverty level,"14,031","3,435",,
+Lajas,Below poverty level,"12,980","2,884",,
+Lares,Below poverty level,"15,493","3,224",,
+Las Marías,Below poverty level,"4,622","1,194",,
+Las Piedras,Below poverty level,"13,709","3,026",,
+Loíza,Below poverty level,"10,675","2,683",,
+Luquillo,Below poverty level,"8,011","1,697",,
+Manatí,Below poverty level,"17,778","4,021",,
+Maricao,Below poverty level,"2,785",583,,
+Maunabo,Below poverty level,"5,269","1,180",,
+Mayagüez,Below poverty level,"38,354","8,502",,
+Moca,Below poverty level,"17,346","3,489",,
+Morovis,Below poverty level,"13,586","2,895",,
+Naguabo,Below poverty level,"11,155","3,234",,
+Naranjito,Below poverty level,"14,187","3,683",,
+Orocovis,Below poverty level,"11,866","2,646",,
+Patillas,Below poverty level,"7,716","1,837",,
+Peñuelas,Below poverty level,"10,569","2,698",,
+Ponce,Below poverty level,"67,242","16,540",,
+Quebradillas,Below poverty level,"10,826","2,224",,
+Rincón,Below poverty level,"6,243","1,252",,
+Río Grande,Below poverty level,"16,786","3,885",,
+Sabana Grande,Below poverty level,"10,350","2,424",,
+Salinas,Below poverty level,"12,908","3,311",,
+San Germán,Below poverty level,"15,579","3,565",,
+San Juan,Below poverty level,"132,586","32,728",,
+San Lorenzo,Below poverty level,"16,961","3,252",,
+San Sebastián,Below poverty level,"20,449","4,473",,
+Santa Isabel,Below poverty level,"9,377","2,185",,
+Toa Alta,Below poverty level,"21,469","5,103",,
+Toa Baja,Below poverty level,"26,378","6,102",,
+Trujillo Alto,Below poverty level,"19,642","4,601",,
+Utuado,Below poverty level,"15,053","3,148",,
+Vega Alta,Below poverty level,"14,782","3,223",,
+Vega Baja,Below poverty level,"23,265","5,136",,
+Vieques,Below poverty level,"4,433","1,291",,
+Villalba,Below poverty level,"9,342","2,127",,
+Yabucoa,Below poverty level,"15,070","3,216",,
+Yauco,Below poverty level,"14,770","3,100",,
