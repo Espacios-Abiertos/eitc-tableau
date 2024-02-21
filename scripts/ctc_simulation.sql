@@ -110,11 +110,16 @@ copy ctc_simulation to 'output/ctc_simulation.parquet' (format parquet);
 create or replace table ctc_simulation_municipios as (
    select
        municipio,
-       sum(ctc_credit * total_households) as total_ctc_credit
-   from ctc_simulation
+       sum(ctc_credit * total_households) as total_ctc_credit,
+       sum(ctc_sim.total_households) as total_households,
+       total_ctc_credit / sum(total_households) as average_ctc_credit,
+       
+   from ctc_simulation as ctc_sim
    where municipio is not null
    group by municipio
    order by municipio
 );
 
 copy ctc_simulation_municipios to 'output/ctc_simulation_municipios.parquet' (format parquet);
+
+from ctc_simulation_municipios;
