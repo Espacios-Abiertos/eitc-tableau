@@ -1,18 +1,14 @@
 import polars as pl
 
 poblacion = (
-    pl.read_excel('input/Poverty5Y2022Municipios.xlsx')
+    pl.read_excel('input/2020PopulationEstimate.xlsx')
     .rename({
-        'Municipio': 'municipio',
-        'Population served': 'population_served',
-        'Total Population': 'total_population',
-        'Under 18Y': 'under_18y',
-        '15 and under': 'under_16y',
-        '16 and under 2020 census': 'under_17y',
+        'Geographic Area': 'municipio',
+        'April 1, 2020 Estimates Base': 'total_population',
     })
-    .filter(pl.col('population_served') == 'Total')
-    .select('municipio',
-            pl.col('total_population').str.replace(',','').cast(int),
+    .filter(pl.col('municipio') != 'Puerto Rico')
+    .with_columns(
+        municipio = pl.col('municipio').str.extract(r'^\.(.+)\sMunicipio')
     )
     .with_columns(
         num_legisladores = 
