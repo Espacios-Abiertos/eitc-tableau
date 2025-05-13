@@ -1,5 +1,6 @@
 ## TODO: Check if this is ok
 My Tableau Repository/*
+!My Tableau Repository/Datasources/
 
 # Huge datasets (above 100MB) (find input -type f -size +100M)
 input/20220802_prtaxtada2020.txt
