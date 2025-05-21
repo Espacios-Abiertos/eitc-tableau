@@ -11,7 +11,7 @@ import requests
 overwrite_downloads = False
 downloads_dir = './datos/downloads'
 
-acs5_year = 2022
+acs5_year = 2023
 groups_to_download = ['S1701']
 
 # Documentation link template such as:
@@ -83,3 +83,34 @@ for downloaded_file in downloads_data:
 # S1701_C01_001E - Estimate!!Total!!Population for whom poverty status is determined
 # S1701_C01_002E - Estimate!!Total!!Population for whom poverty status is determined!!AGE!!Under 18 years
 # S1701_C01_034E - Estimate!!Total!!Population for whom poverty status is determined!!WORK EXPERIENCE!!Population 16 years and over (para calcular 15 and under)
+
+# Y luego usa el siguiente query para formatear los datos
+# para copy paste al excel de "Poverty5Y2022Municipios.xlsx"
+"""
+with acs_poverty_status as (
+from './input/ACS5Y_2022_S1701_by_municipality.csv'
+),
+
+chosen_cols as (
+
+select geo_id, name,
+    S1701_C01_001E as total_population,
+    S1701_C01_002E as total_population_under_18,
+    S1701_C01_034E as total_population_16_and_over,
+    total_population - total_population_16_and_over as total_population_15_and_under,
+    S1701_C03_001E as percent_population_below_poverty,
+    S1701_C03_002E as percent_population_under_18_below_poverty,
+    S1701_C02_001E as total_population_below_poverty,
+    S1701_C02_002E as total_population_under_18_below_poverty,
+from acs_poverty_status
+)
+
+select * replace (
+   format('{:,}', total_population) as total_population,
+   percent_population_below_poverty::VARCHAR || '%' as percent_population_below_poverty,
+   percent_population_under_18_below_poverty::VARCHAR || '%' as percent_population_under_18_below_poverty,
+   format('{:,}', total_population_below_poverty) as total_population_below_poverty,
+   format('{:,}', total_population_under_18_below_poverty) as total_population_under_18_below_poverty,
+)
+from chosen_cols
+"""
