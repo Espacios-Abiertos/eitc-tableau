@@ -9,7 +9,7 @@ raw_ctc_simulation_income_distribution as (
     select *
         exclude ("Median income (dollars)", "Mean income (dollars)")
         replace (Municipio as municipio)
-    from read_csv_auto('input/ctc_simulation_income_distribution_input.csv', header = true)
+    from read_csv_auto('input/ctc_simulation_income_distribution_input_2023.csv', header = true)
 ),
 
 unpivoted_to_income_bracket as (

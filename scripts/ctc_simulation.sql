@@ -84,8 +84,8 @@ rowwise_household_ctc_samples as (
         rowwise_households_allocated_into_number_of_children.municipio = rowwise_households_allocated_into_income_brackets.municipio and
         
         -- CHOOSE one of the following:
-        partitioned_sample_number_more_kids_first = partitioned_sample_number_less_income_first -- more kids into lower income means less ctc disbursed in the estimate (lower estimate)
-        -- partitioned_sample_number_less_kids_first = partitioned_sample_number_less_income_first -- less kids into lower income means more ctc disbursed in the estimate (upper estimate)
+        -- partitioned_sample_number_more_kids_first = partitioned_sample_number_less_income_first -- more kids into lower income means less ctc disbursed in the estimate (lower estimate)
+        partitioned_sample_number_less_kids_first = partitioned_sample_number_less_income_first -- less kids into lower income means more ctc disbursed in the estimate (upper estimate)
         
 ),
 

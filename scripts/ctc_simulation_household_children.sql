@@ -4,10 +4,10 @@ with initial_import as (
 select *
     replace (
         "Under 18Y".replace(',','')::INT as "Under 18Y",
-        "Under 16Y".replace(',','')::INT as "Under 16Y",
-        "Under 17Y".replace(',','')::INT as "Under 17Y",
+        -- "Under 16Y".replace(',','')::INT as "Under 16Y",
+        -- "Under 17Y".replace(',','')::INT as "Under 17Y",
     )
-from read_csv_auto('input/ctc_simulation_input.csv', header=true)
+from read_csv_auto('input/ctc_simulation_input_2023.csv', header=true)
 ),
 
 renamed_columns as (
@@ -30,7 +30,7 @@ casted_columns as (
     select * replace (
         total_households.replace(',','')::INT  as total_households,
         percentage_households_with_people_under_18.replace('%', '')::FLOAT / 100  as percentage_households_with_people_under_18,
-        total_people_under_18.replace(',', '')::INT as total_people_under_18
+        -- total_people_under_18.replace(',', '')::INT as total_people_under_18
     )
     from renamed_columns
 ),
